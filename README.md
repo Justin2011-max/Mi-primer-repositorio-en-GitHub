@@ -1,4 +1,4 @@
-Proceso sin_titulo
+Algoritmo Calculadora de Puntuación
 	Definir puntaje, cantidadPreguntas Como Entero;
 	Definir respuestaUsuario Como Cadena;
 	Definir respuestaCorrecta Como Cadena;

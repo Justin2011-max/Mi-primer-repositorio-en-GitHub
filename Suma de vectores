@@ -1,0 +1,27 @@
+Algoritmo Suma_de_Vectores
+	Definir Vector1, Vector2, Vectorsuma Como Entero;
+	Dimension Vector1[5];
+	Dimension Vector2[5];
+	Dimension Vectorsuma[5];
+	
+	Definir i Como Entero;
+	
+	Para i<-0 Hasta 4 Con Paso 1 Hacer
+		Escribir "Ingresa el elemento ", i+1, " del primer vector:";
+		Leer Vector1[i];
+	FinPara
+	
+	Para i<-0 Hasta 4 Con Paso 1 Hacer
+		Escribir "Ingresa el elemento ", i+1, " del segundo vector:";
+		Leer Vector2[i];
+	FinPara
+	
+	Para i<-0 Hasta 4 Con Paso 1 Hacer
+		Vectorsuma[i] <- Vector1[i]+Vector2[i];
+	FinPara
+	
+	Escribir "El resultado de la suma de los vectores es:";
+	Para i<-0 Hasta 4 Con Paso 1 Hacer
+		Escribir "Elemento ", i, ": ",Vectorsuma[i];
+	FinPara
+	FinAlgoritmo

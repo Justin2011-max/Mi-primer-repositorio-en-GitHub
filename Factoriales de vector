@@ -1,4 +1,4 @@
-Proceso Factoriales_De_Vector
+Algoritmo Factoriales_De_Vector
 	Definir numeros Como Entero;
 	Dimension numeros[6];
 	Definir factoriales Como Entero;

@@ -1,0 +1,20 @@
+Proceso Adivina_Numero
+	//defines las variables a usar
+	Definir num_secreto,num_ingresado Como Entero;
+	// El ordenador escoje el numero alazar del 1 al 100
+	num_secreto <- azar(100)+1;
+	Repetir
+		// El jugador tiene que adivinar el numero  y repetir hasta que el jugador adivine el numero
+	Escribir "Adivine el numero (de 1 a 100):";
+	Leer num_ingresado;
+	si num_secreto<>num_ingresado  entonces
+		Si num_secreto>num_ingresado Entonces
+			Escribir "Demasiado bajo";
+		SiNo 
+			Escribir "Demasiado alto";
+		FinSi
+	FinSi
+Hasta Que num_secreto=num_ingresado
+// El ordenador felicita al jugador por adivinar el numero
+		Escribir "Exacto! ";
+FinProceso
